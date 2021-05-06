@@ -82,7 +82,8 @@ void blockcmp(){
 
 //두 개의 파일 수정 날짜를 비교하는 함수 작성
 void datecmp(){
-if(time1.tm_year < time2.tm_year)
+   printf("date compare\n");
+   if(time1.tm_year < time2.tm_year)
    {
       printf("text1 is early\n");
    }
@@ -121,6 +122,7 @@ if(time1.tm_year < time2.tm_year)
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
 void timecmp(){
+    printf("time compare\n");
     if(time1.tm_hour < time2.tm_hour)
    {
       printf("text1 is early\n");
